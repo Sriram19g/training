@@ -1,0 +1,32 @@
+# .clang-format
+BasedOnStyle: LLVM
+
+# Use 4 spaces for indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Control continuation indentation
+ContinuationIndentWidth: 4
+
+# Braces style
+BreakBeforeBraces: Attach
+
+# Keep function arguments readable
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowAllArgumentsOnNextLine: false
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpaceInEmptyParentheses: false
+
+# Line length (optional, adjust if needed)
+ColumnLimit: 100
+
+# Case labels
+IndentCaseLabels: true
+
+# Pointer alignment (very common preference)
+PointerAlignment: Left
